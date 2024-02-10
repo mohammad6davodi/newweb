@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ارسال مشکل</title>
+    <link href="Style.css" rel="stylesheet">
+    <ul>
+        <li><a href="Index.html">صفحه اصلی</a></li>
+        <li><a href="ControlPanel.html">پنل مدریت</a></li>
+        <li><a href="About.html">درباره ما</a></li>
+        <li><a href="Problem.html">ارسال مشکلات</a></li>
+      </ul>
+</head>
+<body>
+    <div class="oi">
+        <form method="post">
+            <label class="Name">متن</label><br><br>
+            <input type="text" class="Name"><br><br>
+            <label class="Email">ایمیل</label><br><br>
+            <input type="text" class="Email"><br><br>
+            <label class="Paragraph">توشیحات</label><br><br>
+            <input type="text" class="Paragraph"><br><br>
+            <label class="PhoneNumber">شماره تلفن</label><br><br>
+            <input type="text" class="PhoneNumber"><br><br>
+        <input type="submit" value="ارسال">
+        </form>
+    </div>
+    <style>
+        body {
+            background-image: url(img/night1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    
+        .oi label {
+            color: white
+        }
+    
+        .oi {
+            text-align: center;
+            border-style: solid;
+            border-radius: 26px;
+            border-color: blue;
+            padding: 10%;
+            margin: 10%;
+            backdrop-filter: blur(10px);
+        }
+    
+            .oi input {
+                background: none;
+                width: 60%;
+                height: 20px;
+                border-radius: 26px;
+                border-color: pink;
+                background-color: pink;
+            }
+    
+                .oi input:hover {
+                    border-color: pink;
+                    box-shadow: 0 0 10px pink,0 0 20px pink, 0 0 40px pink, 0 0 80px pink, 0 0 160px pink;
+                    transition: 1.6s;
+                }
+    </style>
+</body>
+</html>
